@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Likhitharani | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <script src="https://kit.fontawesome.com/23db9cb3f7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <!-- 🔗 Sticky Navigation -->
+  <nav class="navbar">
+    <h1>Likhitharani</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#skills">Technologies</a></li>
+      <li><a href="#internships">Internships</a></li>
+      <li><a href="#chat">Chat</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🌌 Hero Section -->
+  <section class="hero" data-aos="zoom-in">
+    <h2>Hello, I'm <span>Likhitharani</span></h2>
+    <p>Java & Full Stack Developer | SQL and Power BI Enthusiast</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about-enhanced" data-aos="fade-up">
+  <div class="about-wrapper">
+    <div class="profile-glow">
+      <img class="profile-img-glow" src="https://github.com/Likhitharani26.png" alt="Likhitharani">
+    </div>
+    <div class="about-text">
+      <h2 class="about-name">Pachipala Likhitharani</h2>
+      <h4 class="about-title">Computer Science & Engineering | B.Tech @ Aditya College of Engineering</h4>
+      <p class="about-desc">🚀 Passionate about solving real-world problems with Software, IoT, and Java Full Stack. Whether it’s building IOT based Prision Monitoring System, I thrive on innovation.</p>
+      <p class="about-extra">🖋 I’m also a creative Video Editor, and someone who believes in technology with a Cinemwtography.</p>
+      <div class="badge-row">
+        <span class="badge">Java Developer</span>
+        <span class="badge">SQL Enthusiast</span>
+        <span class="badge">Creative Video Editor</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="section" data-aos="fade-right">
+  <h2>🚀 Projects</h2>
+  <ul class="cert-link-list">
+    <li>
+        😊 Personal Portfolio – 
+      <a href="https://sameer-porfolio.onrender.com/" target="_blank">See Live App</a>
+    </li>
+    <li>
+        🎥 Real Time Movie Recommendor System– 
+      <a href="https://smr2005-movie-recomendor-system-eqeizu5aesxnqxk9m3tz9u.streamlit.app/" target="_blank">See Live App</a>
+    </li>
+    <li>
+        Car Pulse a Sentiment Analysis for Car Brand– 
+      <a href="https://carpulse.onrender.com/" target="_blank">See Live App</a>
+    </li>
+    
+    <li>
+      🧬 Disease Prediction using Streamlit – 
+      <a href="https://sameermedico.streamlit.app/" target="_blank">See Live App</a>
+    </li>
+    <li>
+      🤖 Face Recognition System – 
+      <a href="https://github.com/Smr2005/AI-Powered-Face-Recognitionapp.git" target="_blank">GitHub Repo</a>
+    </li>
+    <li>
+      🌐 IoT Gas Leak Detection System  
+    </li>
+  </ul>
+</section>
+
+
+  <!-- Certifications -->
+ <section id="certifications" class="section" data-aos="fade-left">
+  <h2>📜 Certifications</h2>
+  <ul class="cert-link-list">
+    <li>
+      Pantech e Learning – Java Fullstack – 
+      <a href="{{ url_for('static', filename='certificates/Pantech e Learning .pdf') }}" target="_blank">View Certificate</a>
+    </li>
+    <li>
+      The Digital Adda – Java Programming – 
+      <a href="{{ url_for('static', filename='certificates/TheDigitalAdda.pdf') }}" target="_blank">View Certificate</a>
+    </li>
+    <li>
+      DataKraft – Data Science – 
+      <a href="{{ url_for('static', filename='certificates/DataKraft.pdf') }}" target="_blank">View Certificate</a>
+    </li>
+    <li>
+      IIT Madras – Cloud Computing – 
+      <a href="{{ url_for('static', filename='certificates/IIT.pdf') }}" target="_blank">View Certificate</a>
+    </li>
+    <li>
+      Aditya College of Engineering – Academic Topper – 
+      <a href="{{ url_for('static', filename='certificates/topper.pdf') }}" target="_blank">View Certificate</a>
+    </li>
+    <li>
+      Aditya College of Engineering – Project Expo – 
+      <a href="{{ url_for('static', filename='certificates/project.pdf') }}" target="_blank">View Certificate</a>
+    </li>
+
+  </ul>
+</section>
+
+
+  <!-- Skills -->
+  
+  <section id="skills" class="section skill-grid-section" data-aos="fade-up">
+  <h2>⚙️ Skills & Technologies</h2>
+  <p class="tech-subtext">Here's a quick glance at the tools & tech I work with 💻</p>
+
+  <div class="skill-grid">
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+      <h4>Java</h4>
+      <div class="bar"><div class="fill" style="--level: 90%"></div></div>
+      <span class="skill-level">Expert</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
+      <h4>SQL</h4>
+      <div class="bar"><div class="fill" style="--level: 90%"></div></div>
+      <span class="skill-level">Expert</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+      <h4>HTML</h4>
+      <div class="bar"><div class="fill" style="--level: 80%"></div></div>
+      <span class="skill-level">Advanced</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+      <h4>CSS</h4>
+      <div class="bar"><div class="fill" style="--level: 85%"></div></div>
+      <span class="skill-level">Advanced</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+      <h4>JavaScript</h4>
+      <div class="bar"><div class="fill" style="--level: 80%"></div></div>
+      <span class="skill-level">Advanced</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968508.png" alt="Power BI" />
+      <h4>Power BI</h4>
+      <div class="bar"><div class="fill" style="--level: 65%"></div></div>
+      <span class="skill-level">Intermediate</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+      <h4>Git</h4>
+      <div class="bar"><div class="fill" style="--level: 80%"></div></div>
+      <span class="skill-level">Advanced</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+      <h4>GitHub</h4>
+      <div class="bar"><div class="fill" style="--level: 80%"></div></div>
+      <span class="skill-level">Advanced</span>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Internships -->
+  <section id="internships" class="section" data-aos="fade-up">
+  <h2>🧪 Internship Certifications</h2>
+  <ul class="cert-link-list">
+    <li>
+      Slashmark – SQL Intern – in All India Council for Technical Education(AICTE)
+      (<a href="/static/certificates/AI Intern.pdf" target="_blank">View Certificate</a>)
+    </li>
+    <li>
+      Trairight –Long Tearm Power BI Intern
+      (<a href="/static/certificates/Data Science Intern.pdf" target="_blank">View Certificate</a>)
+    </li>
+    <li>
+      Tap Academy – Full Stack Developer Trainee
+      (<a href="/static/certificates/Shaik Sameer.pdf" target="_blank">View Certificate</a>)
+    </li>
+  </ul>
+</section>
+
+  <!-- Chat -->
+  <section id="chat" class="section" data-aos="zoom-in">
+    <h2>Talk to My AI Assistant</h2>
+    <div id="chatbox"></div>
+    <input type="text" id="userInput" placeholder="Ask something about Likhitharani..." />
+    <button onclick="sendMessage()">Send</button>
+  </section>
+
+  <!-- Chat Icon -->
+  <a id="chat-float-btn" title="Ask Sameer Bot!"></a>
+
+  <!-- Contact -->
+  <!-- 📞 Contact Me -->
+<section id="contact" class="section contact-enhanced" data-aos="fade-up">
+  <h2>📞 Contact Me</h2>
+  <p>Let's connect — click below to reach out directly!</p>
+
+  <div class="contact-cards">
+    <a href="mailto:likhitharani62@gmail.com" class="contact-card">
+      <i class="fas fa-envelope"></i>
+      Email
+      <span>likhitharani62@gmail.com</span>
+    </a>
+
+    <a href="https://www.linkedin.com/in/pachipala-likhitharani-5111a436a" class="contact-card" target="_blank">
+      <i class="fab fa-linkedin"></i>
+      LinkedIn
+    </a>
+
+    <a href="https://github.com/Likhitharani26" class="contact-card" target="_blank">
+      <i class="fab fa-github"></i>
+      GitHub
+    </a>
+  </div>
+</section>
+
+
+
+
+  <!-- Resume Access Request -->
+  <section id="resume" class="section resume-enhanced" data-aos="fade-up">
+  <h2>📄 Resume Access</h2>
+  <p style="text-align: center; max-width: 600px; margin: auto;">
+    Want to access Likhitha’s resume? Just fill this short form — Likhitha will personally verify your request before sharing her resume. 👨‍💻✨
+  </p>
+
+  <form method="POST" action="/request_resume" class="resume-form">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+    </div>
+    <button type="submit">🔐 Access</button>
+  </form>
+
+  <p class="privacy-note">🔒 Likhitha's info is private. Only trusted will review it.</p>
+  
+  <p class="footer-note" style="margin-top: 2rem;">© 2025 Likhitharani. Made with using HTML,CSS,Java</p>
+</section>
+
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000 });</script>
+  <script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+</body>
+</html>
